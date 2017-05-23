@@ -10,7 +10,7 @@ Object detection is one of the exciting part of the study in Computer vision and
 
 ### Problem Statement
 
-The statement of the problem is *** Vehicle detection and tracking in a video using classifier trained over vehicle and non vehicle image data set***. The solution to the problem is that, it should be able to select proper pixcels in the image frame in videos as vehicle and draw a rectangular boundary. More technically, the accuracy of the classifier will be calculated with respect to train, test data as well as the performance of classifier on videos. The results thus obtained should be replicable using same data set.
+The statement of the problem is ***Vehicle detection and tracking in a video using classifier trained over vehicle and non vehicle image data set*** . The solution to the problem is that, it should be able to select proper pixcels in the image frame in videos as vehicle and draw a rectangular boundary. More technically, the accuracy of the classifier will be calculated with respect to train, test data as well as the performance of classifier on videos. The results thus obtained should be replicable using same data set.
 
 
 
