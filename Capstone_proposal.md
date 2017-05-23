@@ -20,11 +20,23 @@ The statement of the problem is ***Vehicle detection and tracking in a video usi
  3. Test Video: [Link](https://github.com/udacity/CarND-Vehicle-Detection/blob/master/project_video.mp4)
 
 
+### Solution Statement:
+ The problem of detecting vehicle in the test video will be solved by using techniques of Computer vision for feature extraction and  and Machine Learning for search of best classifier model.
+
+
+### Benchmark model
+
+
+
+### Evaluation Metric
+
+
+
+
+### Project Design
 
 
 
 
 
 
-### Data link:
-1. https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/cutouts.zip
