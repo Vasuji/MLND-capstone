@@ -1,5 +1,5 @@
 
-# Capstone Project
+# Capstone Project Proposal
 ## Machine Learning Engineer Nano Degree
 
 
@@ -12,7 +12,12 @@ Object detection is one of the exciting part of the study in Computer vision and
 
 The statement of the problem is ***Vehicle detection and tracking in a video using classifier trained over vehicle and non vehicle image data set*** . The solution to the problem is that, it should be able to select proper pixcels in the image frame in videos as vehicle and draw a rectangular boundary. More technically, the accuracy of the classifier will be calculated with respect to train, test data as well as the performance of classifier on videos. The results thus obtained should be replicable using same data set.
 
-
+### Data Set and Inputs
+ This project will build a classifier using two sets of data called vehicle and nonvehicle. One a model is ready, it will be used to test it's performance on test video. Following are the data sources:
+ 
+ 1. Vehicle Images: [Link](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/vehicles.zip)
+ 2. Non-vehicle Images: [Link](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/non-vehicles.zip)
+ 3. Test Video: [Link](https://github.com/udacity/CarND-Vehicle-Detection/blob/master/project_video.mp4)
 
 
 
