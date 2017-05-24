@@ -21,7 +21,7 @@ The statement of the problem is ***Vehicle detection and tracking in a video usi
 
 
 ### Solution Statement:
- The problem of detecting vehicle in the test video will be solved by using techniques of Computer vision for feature extraction and  and Machine Learning for search of best classifier model.
+ The problem of detecting vehicle in the test video will be solved by using techniques of Computer vision for feature extraction and  and Machine Learning for search of best classifier model. Different scheme and hyperparameters for ```SVM``` classifiers for eample ```linear, rbf, 'C' ``` will be tried. For parameter tuning, scikit-learn's ```GridSearchCV, RandomizedSearchCV``` will be used. Best classifier model will be extracted using labeled data set and it will be used to the test video. Once the part of the image representing vehicle is identified in each frame of video, a rectangular box will be drawn around it for vehicle tracking purpose. The correctly counted vehicle in the duration of the video will count the success of the algorithm.
 
 
 ### Benchmark model
