@@ -40,15 +40,29 @@ Two different metrics will be used in this project. First one includes the accur
 
 * Part 1: ***Getting Familiar to data and exploratory data analysis*** 
 
+
+
 * Part 2: ***Feature Extraction***
+
+
+
 
 * Part 3. ***Train a linear SVM***
 
+
+
 * Part 4. ***Technique Slidding Window Search***
+
+
 
 * Part 5. ***Search and Classifiy an image***
 
+
+
+
 * Part 6. ***Search and Classifiy a Video***
+
+
 
 
 
@@ -57,6 +71,7 @@ Two different metrics will be used in this project. First one includes the accur
 1. [Object Detection Wikipedia](https://en.wikipedia.org/wiki/Object_detection)
 2. [Human detection from images and videos: A survey](http://www.sciencedirect.com/science/article/pii/S0031320315003179)
 3. [Machine Learinig Technique for Face Analaysis](http://ii.tudelft.nl/pub/dragos/euromedia.pdf)
+4. [Vehicle Detection in an Image](http://www.irdindia.in/journal_ijaeee/pdf/vol2_iss6/10.pdf)
 
 
 
