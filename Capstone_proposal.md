@@ -28,12 +28,35 @@ The statement of the problem is ***Vehicle detection and tracking in a video usi
 
 
 
-### Evaluation Metric
 
+
+
+### Evaluation Metric
+Two different metrics will be used in this project. First one includes the accuracy of the trained support vector machine on training and test data. The second includes the count of correctly detected vehicle and false positive. The actual no of the cars will be counted manually and it will be compaired to the vehicle detected by the algorithhm.
 
 
 
 ### Project Design
+
+* Part 1: ***Getting Familiar to data and exploratory data analysis*** 
+
+* Part 2: *** Feature Extraction***
+
+* Part 3. *** Train a linear SVM***
+
+* Part 4. ***Technique Slidding Window Search***
+
+* Part 5. *** Search and Classifiy an image***
+
+* Part 6. *** Search and Classifiy a Video***
+
+
+
+
+
+
+
+
 
 
 
