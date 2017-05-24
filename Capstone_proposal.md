@@ -25,7 +25,7 @@ The statement of the problem is ***Vehicle detection and tracking in a video usi
 
 
 ### Benchmark model
-
+This project will use ***Dept. Applied Electronics, Dept. Electronics and Communication's*** report on ***Vehicle Detection in Images using SVM*** as a bench mark model.
 
 
 
@@ -72,6 +72,8 @@ Two different metrics will be used in this project. First one includes the accur
 2. [Human detection from images and videos: A survey](http://www.sciencedirect.com/science/article/pii/S0031320315003179)
 3. [Machine Learinig Technique for Face Analaysis](http://ii.tudelft.nl/pub/dragos/euromedia.pdf)
 4. [Vehicle Detection in an Image](http://www.irdindia.in/journal_ijaeee/pdf/vol2_iss6/10.pdf)
+5. [A Two-Stage Approach to People and VehicleDetection With HOG-Based SVM](https://pdfs.semanticscholar.org/1c76/6d0f4bf8ff443cbe8a487313e77c20ed4166.pdf)
+6. [Histograms of Oriented Gradients for Human Detection](https://hal.inria.fr/file/index/docid/548512/filename/hog_cvpr2005.pdf)
 
 
 
