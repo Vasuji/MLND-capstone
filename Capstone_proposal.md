@@ -40,15 +40,15 @@ Two different metrics will be used in this project. First one includes the accur
 
 * Part 1: ***Getting Familiar to data and exploratory data analysis*** 
 
-* Part 2: *** Feature Extraction***
+* Part 2: ***Feature Extraction***
 
-* Part 3. *** Train a linear SVM***
+* Part 3. ***Train a linear SVM***
 
 * Part 4. ***Technique Slidding Window Search***
 
-* Part 5. *** Search and Classifiy an image***
+* Part 5. ***Search and Classifiy an image***
 
-* Part 6. *** Search and Classifiy a Video***
+* Part 6. ***Search and Classifiy a Video***
 
 
 
