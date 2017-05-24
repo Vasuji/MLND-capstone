@@ -5,7 +5,7 @@
 
 ### Domain Background
 
-Object detection[[1]](https://en.wikipedia.org/wiki/Object_detection) is one of the exciting part of the study in Computer vision and Machine learning. For example human detection[[2]](http://www.sciencedirect.com/science/article/pii/S0031320315003179) in servelence cameras, face and facial expression detection in speech videos etc. This project is greatly inspired by Vehicle detection and Tracking project of the Self Driving Car Nanodegree which is offered at Udacity. The main focus on this project is to build a model for image classification and using it to detect and track the identified image in videos. More specifically it detect and track vehicle in the video.
+Object detection[[1]](https://en.wikipedia.org/wiki/Object_detection) is one of the exciting part of the study in Computer vision and Machine learning. For example human detection[[2]](http://www.sciencedirect.com/science/article/pii/S0031320315003179) in servelence cameras, face and facial expression detection[[3]](http://ii.tudelft.nl/pub/dragos/euromedia.pdf) in speech videos etc. This project is greatly inspired by Vehicle detection and Tracking project of the Self Driving Car Nanodegree which is offered at Udacity. The main focus on this project is to build a model for image classification and using it to detect and track the identified image in videos. More specifically it detect and track vehicle in the video.
 
 
 ### Problem Statement
@@ -56,6 +56,7 @@ Two different metrics will be used in this project. First one includes the accur
 ### References:
 1. [Object Detection Wikipedia](https://en.wikipedia.org/wiki/Object_detection)
 2. [Human detection from images and videos: A survey](http://www.sciencedirect.com/science/article/pii/S0031320315003179)
+3. [Machine Learinig Technique for Face Analaysis](http://ii.tudelft.nl/pub/dragos/euromedia.pdf)
 
 
 
