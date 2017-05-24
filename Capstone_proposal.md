@@ -1,7 +1,8 @@
 
-# Capstone Project Proposal
-## Machine Learning Engineer Nanodegree
-
+# Machine Learning Engineer Nanodegree
+## Capstone Proposal
+Dibakar Udacity  
+May 23, 2017
 
 ### Domain Background
 
