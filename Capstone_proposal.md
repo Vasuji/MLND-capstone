@@ -1,7 +1,7 @@
 
 # Machine Learning Engineer Nanodegree
 ## Capstone Proposal
-Dibakar Sigdel, Udacity 
+Dibakar Sigdel, Udacity \\
 May 23, 2017
 
 ### Domain Background
