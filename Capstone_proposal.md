@@ -26,10 +26,7 @@ The statement of the problem is ***Vehicle detection and tracking in a video usi
 
 ### Benchmark model
 This project will use report on [Vehicle Detection in an Image](http://www.irdindia.in/journal_ijaeee/pdf/vol2_iss6/10.pdf)
-and  [A Two-Stage Approach to People and VehicleDetection With HOG-Based SVM](https://pdfs.semanticscholar.org/1c76/6d0f4bf8ff443cbe8a487313e77c20ed4166.pdf) as our bench mark model.
-
-
-
+and  [A Two-Stage Approach to People and VehicleDetection With HOG-Based SVM](https://pdfs.semanticscholar.org/1c76/6d0f4bf8ff443cbe8a487313e77c20ed4166.pdf) as our bench mark model. These models use the concept of [Histograms of Oriented Gradients](http://www.learnopencv.com/histogram-of-oriented-gradients/)HOG, for feature extraction purpose and some other geometrical aspects like edge detection etc. as well. Our aim in this project is also to extract color and HOG feature before we train the classifiers.
 
 
 ### Evaluation Metric
@@ -39,29 +36,27 @@ Two different metrics will be used in this project. First one includes the accur
 
 ### Project Design
 
-* Part 1: ***Getting Familiar to data and exploratory data analysis*** 
+The whole project will be divided into following sub steps:
+
+* Part 1: ***Getting Familiar to data and exploratory data analysis*** : On this sub-step, a gentle study of data to be familiar with it and also a exploratory data analysis will be presented before the actual feature extraction.
 
 
 
-* Part 2: ***Feature Extraction***
+* Part 2: ***Feature Extraction*** : Detail of feature extraction will be discussed here, proper image size will be selected. Various color chalels like: ```'BGR','HSV','LUV','HLS','YUV','YCrCb'``` will be studied for better feature.HOG features and color features are the main part of features.
+
+
+* Part 3. ***Train a linear SVM*** : Detail of training process, selection of parameters and theory of training model will be discussed here. Feature extracted from step 2 will be normalized and splited into train test part and will be fed in to the training process.
 
 
 
-
-* Part 3. ***Train a linear SVM***
-
-
-
-* Part 4. ***Technique Slidding Window Search***
+* Part 4. ***Technique Slidding Window Search***: This step will discuss about the utilities used for search of vehicle in the different parts of the images. An image is segemented in to a smaller parts and some parts are given priority for searching vehicle. This results in a set of windows from which suspected part of the image is extracted and tested for presence of vehicle.
 
 
 
-* Part 5. ***Search and Classifiy an image***
+* Part 5. ***Search and Classifiy an image*** : This steps uses all steps mentioned above, pretrained classifier model uses tiny section of the large image through sliding window technique. If the classifier predict that tiny section as car, a rectangle will be drawn around that section.
 
 
-
-
-* Part 6. ***Search and Classifiy a Video***
+* Part 6. ***Search and Classifiy a Video***:  This is the final part of the project which prepares the video along with vehicle inside a rectangular box. Since video is a time series of many images, we use the step 5 in all images in video and re process them to form final output video. To be more precise in the result we will use heatmap technique in vehicle detection to catch false positive cases.
 
 
 
