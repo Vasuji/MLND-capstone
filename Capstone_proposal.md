@@ -1,6 +1,6 @@
 
 # Capstone Project Proposal
-## Machine Learning Engineer Nano Degree
+## Machine Learning Engineer Nanodegree
 
 
 ### Domain Background
