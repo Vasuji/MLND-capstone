@@ -36,16 +36,16 @@ Two different metrics will be used in this project. First one includes the accur
 
 ### Project Design
 
-The whole project will be divided into following sub steps:
+The whole project will be divided into following steps:
 
-* Part 1: ***Getting Familiar to data and exploratory data analysis*** : On this sub-step, a gentle study of data to be familiar with it and also a exploratory data analysis will be presented before the actual feature extraction.
-
-
-
-* Part 2: ***Feature Extraction*** : Detail of feature extraction will be discussed here, proper image size will be selected. Various color chalels like: ```'BGR','HSV','LUV','HLS','YUV','YCrCb'``` will be studied for better feature.HOG features and color features are the main part of features.
+* Part 1: ***Getting Familiar to data and exploratory data analysis*** : On this step, a gentle study of data to be familiar with it and also a exploratory data analysis will be presented before the actual feature extraction.
 
 
-* Part 3. ***Train a linear SVM*** : Detail of training process, selection of parameters and theory of training model will be discussed here. Feature extracted from step 2 will be normalized and splited into train test part and will be fed in to the training process.
+
+* Part 2: ***Feature Extraction*** : This step will provide detail of feature extraction. Proper image size will be selected. Various color chalels like: ```'BGR','HSV','LUV','HLS','YUV','YCrCb'``` will be studied for better feature.HOG features and color features are the main part of features.
+
+
+* Part 3. ***Train a linear SVM*** : This step will provide detail of training process, selection of parameters and theory of training model. Feature extracted from step 2 will be normalized and splited into train test part and will be fed in to the training process.
 
 
 
